@@ -5,4 +5,4 @@ Tercer proyecto para entregar
 <ul><li>git init</li><li>git install -D sass</ul>
 
 # compilación SASS Visual studio code
-<ul><li>crear carpeta public</li><li>Meter dentro de la carpeta public: index y las demás páginas</li></ul>
+<ul><li>crear carpeta public</li><li>Meter dentro de la carpeta public: index y las demás páginas</li><li>npx sass --watch sass/styles.scss CSS/styles.css</li></ul>
