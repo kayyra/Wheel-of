@@ -1,0 +1,91 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+
+    header {      
+        .logo{
+            display: flex;
+        }
+        .logo img {
+            height: 120px;
+        }
+
+        .title img{
+            margin-top: 20px;
+            margin-left: 100px;            
+            height: 80px;
+        }
+      
+    }
+
+    main{
+       
+        .bienvenido{
+            background:  #222f5b ;            
+            margin-top: 20px;
+            opacity: 0.7;  
+            margin-left: 10px;
+           
+        }
+
+        p{
+            margin: 5px;
+            font-weight: bold;
+            margin-top: 1.8em;
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+            
+        }
+
+        .boton{
+           
+            margin-left: 140px;
+            margin-top: 130px;
+        }
+
+        .boton img{
+            height: 58px;
+        }
+    }    
+
+}
+
+
+@media screen and (min-width:768px) and (max-width: 990px) {
+    header{
+        .logo img{
+            height: 160px;
+        }
+    }
+    
+    main{
+        .boton img{
+            margin-left: 210px;
+            height: 60px;
+        }
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1440px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        header{
+             .logo img{
+                height: 140px;
+             }
+
+             .title img{
+                height: 110px;
+             }
+        }
+
+        main{
+            .boton img{
+                margin-left: 300px;
+            }
+        }
+    }
+}
