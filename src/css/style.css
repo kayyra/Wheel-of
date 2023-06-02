@@ -1,0 +1,33 @@
+body {
+  background-image: url(../img/fondo.jpg);
+}
+body header .logo {
+  display: flex;
+}
+body header .logo img {
+  height: 100px;
+}
+body header .title {
+  margin-left: 10px;
+  width: 280px;
+  height: 50px;
+}
+body main .bienvenido {
+  background: #222f5b;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+body main p {
+  margin: 5px;
+  font-weight: bold;
+  margin-top: 1.8em;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+body main .boton {
+  margin-left: 100px;
+  margin-top: 130px;
+}
+
+/*# sourceMappingURL=style.css.map */
