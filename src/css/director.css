@@ -1,0 +1,39 @@
+body {
+    background-image: url("imagenfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+
+.logo{
+    width: 175px;
+    height: 175px;
+    margin-left: 50px;
+  }
+
+.titulo{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 150px;
+    margin-left: 150px;
+}
+
+.texto1{
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.texto2{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.playagain{
+  width: 520px;
+  height: 125px;
+  margin-left: 500px;
+}
