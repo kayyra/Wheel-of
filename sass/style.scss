@@ -22,16 +22,19 @@ body {
 
     main{
        
+
+
         .bienvenido{
             background:  #222f5b ;            
             margin-top: 20px;
-            opacity: 0.7;  
-            margin-left: 10px;
+            opacity: 0.7;
+            margin-left: 100px;
+            align-items: center;
            
         }
 
         p{
-            margin: 5px;
+        
             font-weight: bold;
             margin-top: 1.8em;
             color: #fff;
@@ -48,6 +51,10 @@ body {
 
         .boton img{
             height: 58px;
+        }
+
+        h3{
+            color: #fff;
         }
     }    
 
